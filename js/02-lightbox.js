@@ -9,6 +9,7 @@ paletteContainer.insertAdjacentHTML("beforeend", galleryMarkup);
 var lightbox = new SimpleLightbox(".gallery__item a", {
   nav: true,
   captionDelay: 250,
+  captionsData: "alt",
 });
 
 function createGalleryMarkup(galleryItems) {
